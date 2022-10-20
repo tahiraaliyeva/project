@@ -1,0 +1,54 @@
+.first{
+    width: 1000px;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    float: left;
+    left: 50px;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 0 15px black;
+    color: aliceblue;
+
+}
+.first::before{
+    content: "After";
+    color: aliceblue;
+    width: 1000px;
+    height: 200px;
+    background-color: blue;
+    position:absolute;
+    top: 400px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    left: 0 ;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 0 15px black;
+
+}
+.first::after{
+    content: "Element";
+    color: aliceblue;
+    width:1000px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: -200px;
+    float: left;
+    left: 0;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 0 15px black;
+
+}
